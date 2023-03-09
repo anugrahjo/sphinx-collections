@@ -6,6 +6,7 @@ from pkg_resources import parse_version
 from sphinxcontrib.collections.drivers.copy_file import CopyFileDriver
 from sphinxcontrib.collections.drivers.copy_folder import CopyFolderDriver
 from sphinxcontrib.collections.drivers.function import FunctionDriver
+from sphinxcontrib.collections.drivers.writer_function import WriterFunctionDriver
 from sphinxcontrib.collections.drivers.git import GitDriver
 from sphinxcontrib.collections.drivers.jinja import JinjaDriver
 from sphinxcontrib.collections.drivers.report import ReportDriver
@@ -28,6 +29,7 @@ DRIVERS = {
     "copy_file": CopyFileDriver,
     "string": StringDriver,
     "function": FunctionDriver,
+    "writer_function": WriterFunctionDriver,
     "report": ReportDriver,
     "symlink": SymlinkDriver,
     "jinja": JinjaDriver,
