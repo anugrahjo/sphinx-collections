@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 requires = ['sphinx>3.4', 'jinja2', 'gitpython']
 
 setup(
-    name='sphinx-collections',
+    name='sphinxcontrib-collections',
     version='0.0.2',
     url='http://github.com/useblocks/sphinx-collections',
     download_url='http://pypi.python.org/pypi/sphinx-collections',
