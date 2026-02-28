@@ -5,6 +5,7 @@ from sphinx.util import logging
 from sphinx_collections.drivers.copy_file import CopyFileDriver
 from sphinx_collections.drivers.copy_folder import CopyFolderDriver
 from sphinx_collections.drivers.function import FunctionDriver
+from sphinx_collections.drivers.writer_function import WriterFunctionDriver
 from sphinx_collections.drivers.git import GitDriver
 from sphinx_collections.drivers.jinja import JinjaDriver
 from sphinx_collections.drivers.report import ReportDriver
@@ -19,6 +20,7 @@ DRIVERS = {
     "copy_file": CopyFileDriver,
     "string": StringDriver,
     "function": FunctionDriver,
+    "writer_function": WriterFunctionDriver,
     "report": ReportDriver,
     "symlink": SymlinkDriver,
     "jinja": JinjaDriver,
